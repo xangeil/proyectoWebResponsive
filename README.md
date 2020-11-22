@@ -1,2 +1,2 @@
 # proyectoWebResponsive
-pagina creada como proyecto de paginas profesionales IV ciclo
+pagina creada como proyecto de practicas profesionales IV ciclo
