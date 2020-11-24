@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" class="rel">
     <link rel="stylesheet" href="estilosHenry.css">
     <title>System Solution</title>
 </head>
@@ -17,13 +18,56 @@
             <!--Esto le pertenece a Lucero-->
             <h2>Hola mundo 123456</h2>
         </div>
-        <div>
+        <div class="henry">
             <!--Esto le pertenece a Henry-->
+            <div class="slider">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img-henry/slider-1.jpg" class="d-block w-100" alt="reparando">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Reparaciones 100% confiables</h5>
+                                <p>Nuestro equipo esta capacitado para dar el mejor servicio tecnico a sus equipos de computo y garantizando nuestro trabajo para una larga duración.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img-henry/slider-2.jpg" class="d-block w-100" alt="marcas">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Las marcas mas confiables</h5>
+                                <p>Sabemos que tu equipo de computo es indispensable para tu dia a dia asi que te ofrecemos los repuestos de las marcas mas confiables para una mejor durabilidad.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img-henry/slider-3.jpg" class="d-block w-100" alt="componentes">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Asesoramiento Gratuito</h5>
+                                <p>Te asesoramos deacuerdo a tus necesidades para que puedas tener el equipo de computo ideal para ti y los tuyos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
         <!--Esto le pertenece a Henry-->
     </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/codigobootstrap.js"></script>
 </body>
 
 </html>
