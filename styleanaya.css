@@ -1,0 +1,59 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+	/*aca empieza el header*/
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+	margin-top: 2%;
+	margin-right: 10%;
+	margin-left: 14%;
+}
+#elegirnos{
+	font-size: 50px;
+}
+img{
+	margin: auto;
+	display: block;
+}
+#encabezado_recuadro_azul{
+	background-color: blue;
+	width: 100%;
+}
+#recuadro_azul{
+	background-color: blue;
+	width: 100%;
+
+}
+#icono{
+	width: auto;
+	height: 90px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: block;
+	color: white;
+	border-radius: 10px;
+}
+#soporte1{
+	margin-top: 50px;
+	width: 600px;
+	height: 500px;
+	color: white;
+}
+#titulo_recuadro_azul{
+	margin-top: 50px;
+	color: white;
+}
+#sub_recuadro_azul{
+	width: 400px;
+	text-align: justify;
+	color: white;
+}
+#texto_recuadro_azul{
+	width: 400px;
+	text-align: justify;
+	color: white;
+}
