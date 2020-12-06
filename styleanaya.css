@@ -3,57 +3,71 @@
 	margin: 0px;
 }
 	/*aca empieza el header*/
-h1{
+.anaya .egt #sub_1a{
     text-align: center;
     font-size: 30px;
 }
-p{
+.anaya .egt #parrafo_1a{
 	margin-top: 2%;
 	margin-right: 10%;
 	margin-left: 14%;
 }
-#elegirnos{
+.anaya #elegirnos{
 	font-size: 50px;
+	text-align: center;
 }
-img{
+.anaya img{
 	margin: auto;
 	display: block;
 }
-#encabezado_recuadro_azul{
+.anaya #encabezado_recuadro_azul{
 	background-color: blue;
 	width: 100%;
 }
-#recuadro_azul{
+.anaya #recuadro_azul{
 	background-color: blue;
 	width: 100%;
 
 }
-#icono{
+.anaya #encabezado_recuadro_azul #icono{
 	width: auto;
-	height: 90px;
+	height: 90px;margin-top: 5%;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: block;
 	color: white;
 	border-radius: 10px;
+
 }
-#soporte1{
+.anaya #encabezado_recuadro_azul #letra_icono{
+	color: white;
+}
+.anaya #recuadro_azul #soporte1{
 	margin-top: 50px;
 	width: 600px;
 	height: 500px;
 	color: white;
 }
-#titulo_recuadro_azul{
+.anaya #soporte1{
+	margin-left: 5%;
+}
+.anaya #recuadro_azul #titulo_recuadro_azul{
+	margin-left: 10%;
+	margin-right: 5%;
 	margin-top: 50px;
 	color: white;
+	float: left;
 }
-#sub_recuadro_azul{
-	width: 400px;
+.anaya #recuadro_azul #sub_recuadro_azul{
+	margin-left: 10%;
+	margin-right: 5%;
 	text-align: justify;
 	color: white;
 }
-#texto_recuadro_azul{
-	width: 400px;
+.anaya #recuadro_azul  #texto_recuadro_azul{
+	margin-left: 10%;
+	margin-right: 5%;
+
 	text-align: justify;
 	color: white;
 }
