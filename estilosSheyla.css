@@ -1,0 +1,120 @@
+*{  margin:0;
+  padding: 0;
+}
+/*VISTA DE 480*/
+/*VIDEO*/
+header{
+width: 100%;
+height: 100%;
+padding-bottom: 58em;
+}
+.contenedor{
+  max-width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+  z-index: 1;
+}
+.header-video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+.header-video video {
+min-width: 100%;
+min-height: 100%;
+}
+/*NAVBAR
+0-480*/
+.menu{
+height: 100vh;
+width: 98vw;
+position: absolute;
+display: flex;
+flex-direction: column;
+top:5px;
+left: 0;
+z-index: 1;
+opacity: .85;
+}
+nav{
+padding-top: 10px;
+width: 100%;
+z-index: 1;
+}
+.navbar-toggler-icon{
+border: none;
+color: white;
+}
+img{
+width: 150px;
+height: 50px;
+border-radius: 5px;
+}
+.texto{
+position: absolute;
+padding-top: 5em;
+color: whitesmoke;
+display:flex;
+flex-direction: column;
+}
+h1{
+font: bold 90% fantasy;
+font-size: 35px;
+text-align: center;
+padding: 10px;
+
+}
+p{
+font: 80%;
+text-align: center;
+padding-bottom: 10px;
+}
+
+/*FORMULARIO*/
+
+.formulario{
+position: absolute;
+color: whitesmoke;
+width: 80%;
+height: 100%;
+margin-top: 12em;
+margin-left: 3em;
+align-items: center;
+}
+form{
+background: #007bff;
+padding: 30px;
+align-items: center;
+text-align: center;
+}
+a{
+list-style: none;
+color: whitesmoke;
+}
+.form-control{
+vertical-align: baseline;
+border-width: 0px;
+font: inherit;
+outline: none;
+}
+button.btn{
+background: white;
+color: black;
+border: white;
+padding: 8px;
+}
+.celular{
+background: black;
+color: white;
+display:flex;
+flex-direction: row;
+}
+.espacio{
+margin-left: 3em;
+font-size: 20px;
+}
