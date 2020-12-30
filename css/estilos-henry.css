@@ -167,6 +167,7 @@
 .caja-trasera button:hover {
     background: white;
     color: #007BFF;
+    outline: none;
 }
 
 
@@ -229,6 +230,14 @@
     display: none;
 }
 
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #007BFF;
+    padding-top: 20px;
+}
+
 
 /* responsive de login y register*/
 
@@ -258,6 +267,12 @@
     }
 }
 
+@media screen and (max-width:991px) {
+    #login-register {
+        margin-top: 250px;
+    }
+}
+
 
 /* redes sociales */
 
@@ -265,6 +280,7 @@
     position: fixed;
     top: 300px;
     left: 0;
+    margin-left: 0;
     z-index: 2000;
 }
 
@@ -276,9 +292,9 @@
     display: inline-block;
     color: white;
     font-size: 20px;
-    background-color: black;
     padding: 10px 15px;
     text-decoration: none;
+    z-index: 2000;
 }
 
 #social ul li .icon-twitter {
@@ -324,6 +340,7 @@
 
 footer {
     font-family: 'Open Sans';
+    left: 0;
     bottom: 0;
 }
 
@@ -343,7 +360,6 @@ footer img {
 .main_footer {
     width: 100%;
     height: auto;
-    background: url(img-henry/fondo-footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
