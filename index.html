@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/estilos-sheyla.css">
     <link rel="stylesheet" href="css/estilos-henry.css">
     <link rel="stylesheet" href="css/estilos-anaya.css">
+    <link rel="shortcut icon" href="img-henry/logo-titulo.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script async>
         (function(w, d) {
             var h = d.head || d.getElementsByTagName("head")[0];
@@ -42,22 +44,16 @@
                     <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link" href="#somos">Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Somos</a>
+                                <a class="nav-link" href="#servicios">Servicios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Servicios</a>
+                                <a class="nav-link" href="#portafolio">Portafolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Portafolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Clientes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contactos</a>
+                                <a class="nav-link" href="#eligenos">Eligenos</a>
                             </li>
                         </ul>
                     </div>
@@ -68,31 +64,31 @@
         <div class="header-texto-formulario">
             <div class="header-contenido">
                 <div class="header-texto">
-                    <h1>Proyectos digitales enfocados en resultados </h1>
-                    <p>Desarrollamos estrategias efectivas que ayudan a nuestros clientes potenciar sus ventas</p>
+                    <h1>Soluciones efectivas enfocado en nuestros clientes</h1>
+                    <p>Creamos estrategias que ayudan a nuestros clientes a mantener sus equipos.</p>
                 </div>
                 <!-- formulario de contacto -->
                 <div class="header-form">
-                    <form>
+                    <form id="form-contacto">
                         <h1>Contáctenos</h1>
                         <div class="header-formulario">
                             <div class="mb-3">
-                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Nombre">
+                                <input type="text" class="form-control" id="nombre-contacto" placeholder="Nombre">
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Celular">
+                                <input type="text" class="form-control" id="celular-contacto" placeholder="Celular">
                             </div>
                             <div class="mb-3">
-                                <input type="Email" class="form-control" id="formGroupExampleInput3" placeholder="Correo">
+                                <input type="Email" class="form-control" id="email-contacto" placeholder="Correo">
                             </div>
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea"></textarea>
+                                <textarea class="form-control" placeholder="Mensaje" id="mensaje-contacto"></textarea>
                             </div>
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Acepto los <a href="#">términos y condiciones</a> de mis datos personales</label>
                             </div>
-                            <button type="submit" class="btn btn-primary"><b>Comienza ya</b></button>
+                            <button type="submit" id="btn-contacto" class="btn btn-primary"><b>Comienza ya</b></button>
                         </div>
                         <div class="header-celular">
                             <div class="header-espacio"><i class="fas fa-mobile-alt"></i>(01)372 2546</div>
@@ -101,7 +97,6 @@
                     </form>
                 </div>
             </div>
-        </div>
     </header>
     <main>
         <!-- contenedor login y register -->
@@ -131,7 +126,7 @@
                         <!-- Formulario de registro -->
                         <form action="" method="POST" id="form" class="formulario-register">
                             <h2>Registrarse</h2>
-                            <input type="text" id="name" placeholder="username">
+                            <input type="text" id="username" placeholder="username">
                             <input type="email" id="email" placeholder="Correo Electronico">
                             <input type="password" id="password" placeholder="contraseña">
                             <button type="submit">Registrarse</button>
@@ -142,8 +137,67 @@
             </div>
         </div>
         <!-- Anaya -->
-        <div class="contenedor-elegirnos">
-            <h1>¿Por qué elegirnos?</h1>
+        <!-- diseño expertos -->
+        <div class="experto" id="somos">
+            <div class="contenedor-experto1">
+                <div id="artefactos-expertos1">
+                    <i class="icon-display"></i>
+                    <p>Computadora</p>
+                </div>
+                <div id="artefactos-expertos2">
+                    <i class="icon-laptop"></i>
+                    <p>Laptop</p>
+                </div>
+                <div id="artefactos-expertos3">
+                    <i class="icon-mobile"></i>
+                    <p>Movil</p>
+                </div>
+                <div id="artefactos-expertos4">
+                    <i class="icon-tablet"></i>
+                    <p>Tablet</p>
+                </div>
+            </div>
+            <div class="contenedor-experto2">
+                <div id="contenedor-expertos01">
+                    <div class="img-expertos">
+                        <img src="img-anaya/img-experto1.jpg" alt="imagen de reparacion de pc">
+                    </div>
+                    <div class="texto-expertos">
+                        <h3>SOPORTE TECNICO DE COMPUTADORAS</h3>
+                        <p>Somos una empresa dedicada a brindar un buen servicio tecnico, con una gran experiencia en soporte tecnico de computadoras.</p>
+                    </div>
+                </div>
+                <div id="contenedor-expertos02">
+                    <div class="img-expertos">
+                        <img src="img-anaya/img-experto2.jpg" alt="imagen de reparacion de laptop">
+                    </div>
+                    <div class="texto-expertos">
+                        <h3>SOPORTE TECNICO DE TABLETS</h3>
+                        <p>Nuestro personal está altamente calificado en brindar soporte tecnico de laptop en general, esto nos ayuda a garantizar un trabajo profesional y de alta calidad, así cumpliendo con las expectativas de nuestros clientes.</p>
+                    </div>
+                </div>
+                <div id="contenedor-expertos03">
+                    <div class="img-expertos">
+                        <img src="img-anaya/img-experto3.jpg" alt="imagen de reparacion de movil">
+                    </div>
+                    <div class="texto-expertos">
+                        <h3>SOPORTE TECNICO DE MOVIL</h3>
+                        <p>somos una empresa que ofrece a nuestros clientes productos y servicio tecnico de calidad que logren satisfacer todas sus necesidades con precios accesibles.</p>
+                    </div>
+                </div>
+                <div id="contenedor-expertos04">
+                    <div class="img-expertos">
+                        <img src="img-anaya/img-experto4.jpg" alt="imagen de reparacion de tablet">
+                    </div>
+                    <div class="texto-expertos">
+                        <h3>SOPORTE TECNICO DE TABLETS</h3>
+                        <p>Somos una empresa a nivel nacional reconocida por la excelente calidad en productos y servicio tecnico, brindando siempre un buen servicio y buen trato a todos nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-elegirnos" id="eligenos">
+            <h1>¿Por qué Elegirnos?</h1>
             <div class="contenedor-elegirnos2">
                 <div class="contenedor-subtitulo">
                     <div class="image-elegirnos">
@@ -186,7 +240,7 @@
             </div>
         </div>
         <!-- creacion de portafolio -->
-        <div class="contenedor-portafolio">
+        <div class="contenedor-portafolio" id="portafolio">
             <h1>PORTAFOLIO</h1>
             <div class="portafolio">
                 <div class="fotos-portafolio">
@@ -239,10 +293,54 @@
                 </div>
             </div>
         </div>
-        </div>
+        <!-- henry -->
+        <!-- creacion de slider -->
+        <div class="slider-fondo">
+            <div class="slider">
+                <h3>El mejor servicio y los mejores precios para tí</h3>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img-henry/slider-1.jpg" class="d-block w-100" alt="reparando">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Reparaciones 100% confiables</h5>
+                                <p>Nuestro equipo esta capacitado para dar el mejor servicio tecnico a sus equipos de computo y garantizando nuestro trabajo para una larga duración.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img-henry/slider-2.jpg" class="d-block w-100" alt="marcas">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Las marcas mas confiables</h5>
+                                <p>Sabemos que tu equipo de computo es indispensable para tu dia a dia asi que te ofrecemos los repuestos de las marcas mas confiables para una mejor durabilidad.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img-henry/slider-3.jpg" class="d-block w-100" alt="componentes">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Asesoramiento Gratuito</h5>
+                                <p>Te asesoramos deacuerdo a tus necesidades para que puedas tener el equipo de computo ideal para ti y los tuyos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
         <!-- creacion de galeria -->
         <div class="contenedor-galeria">
+            <h1>FALLOS MAS COMUNES</h1>
             <div class="galeria">
                 <div class="fotos"><img src="img-henry/fotos_galeria_1.jpg" alt="foto de soporte tecnico"></div>
                 <div class="fotos"><img src="img-henry/fotos_galeria_2.jpg" alt="foto de soporte tecnico"></div>
@@ -280,10 +378,11 @@
                 </li>
             </ul>
         </div>
+        <div class="boton"><i class="fas fa-angle-up"></i></div>
     </main>
 
     <footer>
-        <div class="footer_position">
+        <div class="footer_position" id="servicios">
             <div class="main_footer" style="background: url(img-henry/fondo-footer.jpg);">
                 <div class="container">
                     <div class="row">
@@ -353,8 +452,11 @@
             </div>
         </div>
     </footer>
+    <script src="js/boton-arriba.js"></script>
+    <script src="js/expertos-animacion.js"></script>
     <script src="js/animacion-login-register.js"></script>
     <script src="js/validacion-login-register.js"></script>
+    <script src="js/validacion-contacto.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ae32a51ed9.js" crossorigin="anonymous"></script>
