@@ -546,6 +546,48 @@
     }
 }
 
+@media (max-width:360px) {
+    .contenedor-experto2 {
+        margin-bottom: 90px;
+    }
+    #artefactos-expertos1 {
+        padding: 10px 0px;
+    }
+    #artefactos-expertos2 {
+        padding: 10px 0px;
+    }
+    #artefactos-expertos3 {
+        padding: 10px 0px;
+    }
+    #artefactos-expertos4 {
+        padding: 10px 0px;
+    }
+    #artefactos-expertos1 i {
+        font-size: 25px;
+    }
+    #artefactos-expertos2 i {
+        font-size: 25px;
+    }
+    #artefactos-expertos3 i {
+        font-size: 25px;
+    }
+    #artefactos-expertos4 i {
+        font-size: 25px;
+    }
+    #artefactos-expertos1 p {
+        display: none;
+    }
+    #artefactos-expertos2 p {
+        display: none;
+    }
+    #artefactos-expertos3 p {
+        display: none;
+    }
+    #artefactos-expertos4 p {
+        display: none;
+    }
+}
+
 
 /* estilos de laptop */
 

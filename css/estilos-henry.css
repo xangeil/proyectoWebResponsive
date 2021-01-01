@@ -1,4 +1,4 @@
-﻿/*solo le quité el margin y padding --> Sheyla*/
+/*solo le quité el margin y padding --> Sheyla*/
 
 
 /* slider de la pagina */
@@ -127,7 +127,7 @@
     position: static;
     max-width: 800px;
     margin: auto;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-bottom: 6%;
 }
 
@@ -281,6 +281,13 @@
 @media (max-width:991px) {
     #login-register {
         margin-top: 250px;
+    }
+}
+
+@media (max-width:360px) {
+    #login-register {
+        margin-top: 600px;
+        margin-bottom: 10%;
     }
 }
 

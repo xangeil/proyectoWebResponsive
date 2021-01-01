@@ -144,3 +144,13 @@ header {
         width: 80%;
     }
 }
+
+@media (max-width:360px) {
+    .header-texto-formulario {
+        margin-top: 250px;
+    }
+    .header-form form .header-formulario {
+        min-width: 320px;
+        max-width: 320px;
+    }
+}
