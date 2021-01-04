@@ -8,7 +8,7 @@ const form_contacto = document.getElementById("form-contacto");
 form_contacto.addEventListener('submit', e => {
     e.preventDefault();
     let regexNombre = /^[A-Za-z\s]{7,50}$/
-    let regexCelular = /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}/
+    let regexCelular = /^\d{9}$/
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
 
     if (!regexNombre.test(nombre_contacto.value)) {
@@ -18,7 +18,7 @@ form_contacto.addEventListener('submit', e => {
             timer: '3000',
             showConfirmButton: false
         })
-    } else if (regexCelular.test(celular_contacto.value)) {
+    } else if (!regexCelular.test(celular_contacto.value)) {
         Swal.fire({
             title: 'El numero celular no es valido',
             icon: 'info',
